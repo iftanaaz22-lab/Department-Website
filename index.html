@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Life Sciences | Sri Venkateswara College</title>
+    <!-- Linking External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="dept-header">
+        <h1>Department of Life Sciences</h1>
+        <h2>Sri Venkateswara College, University of Delhi</h2>
+    </header>
+
+    <!-- Navigation Bar with Drop-Downs -->
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Department</a></li>
+            
+            <!-- Drop-down 1: Faculty -->
+            <li class="dropdown">
+                <a href="#faculty">Faculty ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#professors">Professors</a></li>
+                    <li><a href="#assistant-prof">Assistant Professors</a></li>
+                    <li><a href="#lab-staff">Lab Staff</a></li>
+                </ul>
+            </li>
+            
+            <!-- Drop-down 2: Courses -->
+            <li class="dropdown">
+                <a href="#courses">Courses ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#bsc">B.Sc. (Prog.) Life Sciences</a></li>
+                    <li><a href="#ge">General Electives (GE)</a></li>
+                    <li><a href="#sec">Skill Enhancement (SEC)</a></li>
+                </ul>
+            </li>
+            
+            <!-- Drop-down 3: Activities -->
+            <li class="dropdown">
+                <a href="#activities">Activities ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#seminars">Seminars & Webinars</a></li>
+                    <li><a href="#workshops">Workshops</a></li>
+                    <li><a href="#fest">Annual Bio-Fest</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home / Introduction -->
+        <section id="home" class="content-section">
+            <h3 id="about" class="section-title">Welcome to the Department</h3>
+            <p>
+                Established to impart quality technical education in the biological sciences, the Department of Life Sciences at Sri Venkateswara College integrates the comprehensive study of Botany, Zoology, and Chemistry. Our primary objective is to build strong conceptual understanding and practical laboratory skills to prepare students for advanced scientific research and industry roles.
+            </p>
+        </section>
+
+        <!-- Faculty Details (Table) -->
+        <section id="faculty" class="content-section">
+            <h3 class="section-title">Our Faculty Members</h3>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Faculty Name</th>
+                            <th>Designation</th>
+                            <th>Specialization</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="professors">
+                            <td>Dr. Ravindra Verma</td>
+                            <td>Associate Professor</td>
+                            <td>Biochemistry & Molecular Biology</td>
+                        </tr>
+                        <tr id="assistant-prof">
+                            <td>Dr. Anita Sharma</td>
+                            <td>Assistant Professor</td>
+                            <td>Botany & Plant Genetics</td>
+                        </tr>
+                        <tr id="lab-staff">
+                            <td>Dr. Suresh Rao</td>
+                            <td>Assistant Professor</td>
+                            <td>Zoology & Cell Biology</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Courses & Activities (Lists) -->
+        <div class="grid-layout">
+            <section id="courses" class="content-section">
+                <h3 class="section-title">Courses Offered</h3>
+                <ul class="styled-list">
+                    <li id="bsc"><strong>Undergraduate:</strong> B.Sc. (Programme) Life Sciences</li>
+                    <li id="sec"><strong>SEC:</strong> Front End Web Design and Development</li>
+                    <li id="ge"><strong>GE/VAC:</strong> Science and Society</li>
+                    <li><strong>Labs:</strong> Advanced Biological Techniques</li>
+                </ul>
+            </section>
+
+            <section id="activities" class="content-section">
+                <h3 class="section-title">Academic Activities</h3>
+                <ul class="styled-list">
+                    <li id="seminars"><strong>National Seminar:</strong> Recent trends in Biotechnology & Genetics.</li>
+                    <li id="workshops"><strong>Microscopy Workshop:</strong> Hands-on training on advanced microscopy.</li>
+                    <li id="fest"><strong>Bio-Fest 2026:</strong> Annual departmental festival with poster presentations.</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div id="dept-footer">
+            <p><strong>Contact Us:</strong> lifesciences.dept@svc.ac.in | 📍 Science Block, Sri Venkateswara College, New Delhi</p>
+        </div>
+    </footer>
+
+</body>
+</html>
