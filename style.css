@@ -164,17 +164,29 @@ tr:hover {
     line-height: 1.8;
 }
 
-/* Responsive Media Queries */
+/* Responsive Media Queries for Mobile */
 @media (max-width: 768px) {
+    /* Change from a tall column to a compact wrapping row */
     .nav-menu {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     
+    /* Reduce padding and font size to fit mobile screens perfectly */
+    .nav-menu a {
+        padding: 10px 12px;
+        font-size: 0.95rem;
+    }
+    
+    /* Keep drop-downs floating above content instead of pushing it down */
     .dropdown-menu {
-        position: relative;
-        width: 100%;
+        position: absolute;
+        width: 180px;
+        z-index: 1000;
     }
     
+    /* Stack the bottom content sections vertically */
     .grid-layout {
         flex-direction: column;
     }
